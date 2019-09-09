@@ -49,15 +49,5 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
-
-//        teamItemsListViewModel.mTeamItemsList.observe(this, Observer { list ->
-//            if (teamsRecyclerAdapter == null) {
-//                teamsRecyclerAdapter = TeamsRecyclerAdapter(list)
-//                recyclerView.adapter = teamsRecyclerAdapter
-//            }
-//            recyclerView.adapter!!.notifyDataSetChanged()
-//        })
-//
-//        teamItemsListViewModel.getData()
     }
 }
